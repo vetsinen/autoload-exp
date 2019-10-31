@@ -1,0 +1,20 @@
+{
+    "name": "boo/php01",
+    "description": "php01",
+    "require": {
+        "phpunit/phpunit": "^8.5@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vetsinen",
+            "email": "vetsinen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Boo\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
